@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-sCompatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div>
+                    <h1 id="titulo"> Titulo de mi sitio </h1>
+                    <button onclick="changeColor ('#007bff')" type="button" class="btn btn-primary">Primary</button>
+                    <button onclick="changeColor ('#6c757d')" type="button" class="btn btn-secondary">Secondary</button>
+                    <button onclick="changeColor ('#28a745')" type="button" class="btn btn-success">Success</button>
+                    <button onclick="changeColor ('#dc3545')" type="button" class="btn btn-danger">Danger</button>
+                    <button onclick="changeColor ('#ffc107')" type="button" class="btn btn-warning">Warning</button>
+                    <button onclick="changeColor ('#17a2b8')" type="button" class="btn btn-info">Info</button>
+                    <button onclick="changeColor ('#f8f9f')" type="button" class="btn btn-light">Light</button>
+                    <button onclick="changeColor ('#343a40')" type="button" class="btn btn-dark">Dark</button>
+        
+                    <button type="button" class="btn btn-link">Link</button>
+            </div>
+            <br>
+            <div>
+                <button onclick="addClass('font-weight-bold')" type="button" class="btn btn-primary">Negrita</button>
+                <button onclick="addClass('font-italic')" type="button" class="btn btn-primary">Cursiva</button>
+                <button onclick="addClass('font-light')" type="button" class="btn btn-primary">Delgada</button>
+
+            </div>
+
+            <div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" aria-label="Checkbox for following text input">
+                            <br>
+                        </div>
+                    </div>
+                    <input id="cajaDeTexto" type="text" class="form-control" aria-label="Text input with checkbox">
+                    <button onclick="changeText('')" type="button" class="btn btn-primary">Cambiar</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

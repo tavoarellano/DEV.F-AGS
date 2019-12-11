@@ -1,0 +1,52 @@
+
+/*para que la fuente se cambie en toda la página poner el asterisco brochete*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*selector por etiquetas*/
+p {
+    color: rgb(186, 190, 190);
+    background: rgb(49, 47, 204);
+    font-family: cursive;
+
+}
+
+body {
+   background: rgb(29, 182, 209);  
+}
+
+main {
+    background: #b3a8a6;
+}
+/* Selector por id*/
+
+#titulo {
+    color: tomato;
+}
+/* Selector por clase */
+
+.par {
+    color: royalblue;
+}
+
+.impar {
+    color: slateblue;
+}
+
+.caja {
+    background: yellow;
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    margin-left: 200px;
+}
+
+.square
+{
+    background: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+}

@@ -1,0 +1,42 @@
+
+
+/*ID */
+#mainContainer {
+    /*100% del alto disponible en pantalla */
+    /*vh View height */
+height: 100vh;
+background: darkmagenta;
+border : dashed 5px darkorange;
+
+
+/*flexbox sirve para cualquiet elemento*/
+ 
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+
+/*clases*/
+
+.box {
+height: 200px;
+width: 200px;
+border: solid 3px black;
+}
+
+.is-red {
+    background: red;
+}
+
+.is-blue {
+
+    background: royalblue;
+}
+
+.is-green {
+
+    background: green;
+}
